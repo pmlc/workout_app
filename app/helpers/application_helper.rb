@@ -1,6 +1,6 @@
 module ApplicationHelper
-  def devise_error_messages!
-    return '' if resources.errors.empty?
+ def devise_error_messages!
+    return '' if resource.errors.empty?
     
     messages = resource.errors.full_messages.map {
       |msg| content_tag(:li, msg) }.join
@@ -12,5 +12,5 @@ module ApplicationHelper
 HTML
     html.html_safe
   end
-
+  
 end
