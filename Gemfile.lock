@@ -239,7 +239,7 @@ DEPENDENCIES
   guard-rspec
   jbuilder (~> 2.0)
   jquery-rails
-  jquery-ui-rails (= 5.0.5)
+  jquery-ui-rails
   rails (= 4.2.5)
   rspec-rails (= 3.4.0)
   sass-rails (~> 5.0)
